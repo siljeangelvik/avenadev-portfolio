@@ -10,7 +10,7 @@
 
 This is my portfolio, where I showcase my projects and skills.   
 
-It is built with React and styled with Styled Components.  
+It is built with [React](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjPpKe-rNz_AhVaQ_EDHaKIDzQQFnoECBsQAQ&url=https%3A%2F%2Freact.dev%2F&usg=AOvVaw1tEjYYiD7LQlxO53dgjTHV&opi=89978449) and styled with [Styled Components](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiXvr_CrNz_AhV3SvEDHaxSA0cQFnoECCAQAQ&url=https%3A%2F%2Fwww.styled-components.com%2F&usg=AOvVaw0J6heqwwkbKYNkr_2e7jIU&opi=89978449).  
 
 It is hosted on [Netlify](https://www.netlify.com/) and the domain is purchased through [ProISP](https://www.proisp.no).
 
