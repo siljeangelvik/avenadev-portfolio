@@ -3,7 +3,8 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/81bc9709-383c-4c53-a59c-10b6d02e5498/deploy-status)](https://app.netlify.com/sites/avenadev-portfolio/deploys)
 
 **Owner:** [Silje Avena Angelvik](https://github.com/siljeangelvik)  
-**Host:** Netlify  
+**Netlify:** [Primary Domain](https://avena.dev/)  
+**Netlify:** [Netlify Subdomain](https://avenadev-portfolio.netlify.app/)  
 **Repository:** [GitHub](https://github.com/siljeangelvik/avenadev-portfolio)
 
 ## Description
@@ -38,6 +39,7 @@ It is hosted on [Netlify](https://www.netlify.com/) and the domain is purchased 
 
 ### Resources
 - [Deploying React App to Netlify](https://circleci.com/blog/react-netlify-deploy/)
+- [Deploying React App to Netlify 3 Methods](https://blog.logrocket.com/deploy-react-apps-netlify-3-ways/)
 - [Deploy React app to Netlify using GitHub Actions](https://dev.to/ktscates/deploy-a-react-app-to-netlify-using-github-actions-3akd)
 - [GitHub Triggering a Workflow](https://docs.github.com/en/actions/using-workflows/triggering-a-workflow)
-- 
+- [GitHub Get Started with Netlify CLI](https://docs.netlify.com/cli/get-started/)
