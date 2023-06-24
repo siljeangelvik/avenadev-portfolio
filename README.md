@@ -1,9 +1,8 @@
 # AvenaDev Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/81bc9709-383c-4c53-a59c-10b6d02e5498/deploy-status)](https://app.netlify.com/sites/avenadev-portfolio/deploys)
-![Hello](https://img.shields.io/static/v1?label=project&message=avenaDev&color=orange)
-![GitHub last commit](https://img.shields.io/github/last-commit/siljeangelvik/react-antd-holidaze-exam?&color=ff69b4)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/siljeangelvik/react-antd-holidaze-exam?&color=blue)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/81bc9709-383c-4c53-a59c-10b6d02e5498/deploy-status)](https://app.netlify.com/sites/avenadev-portfolio/deploys)  
+![Hello](https://img.shields.io/static/v1?label=project&message=avenaDev&color=orange) ![GitHub last commit](https://img.shields.io/github/last-commit/siljeangelvik/avenadev-portfolio?&color=ff69b4)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/siljeangelvik/avenadev-portfolio?&color=blue)
 
 **Owner:** [Silje Avena Angelvik](https://github.com/siljeangelvik)  
 **Netlify:** [Primary Domain](https://avena.dev/)  
