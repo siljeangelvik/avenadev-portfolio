@@ -42,7 +42,6 @@ git clone git@github.com:siljeangelvik/avenadev-portfolio.git
 ```
 
 2. Install dependencies:
-
 ```bash
 npm install
 ```
@@ -50,7 +49,6 @@ npm install
 ### Running
 
 1. Run the app in development mode:
-
 ```bash
 npm start
 ```
