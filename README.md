@@ -42,6 +42,7 @@ git clone git@github.com:siljeangelvik/avenadev-portfolio.git
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
@@ -49,6 +50,7 @@ npm install
 ### Running
 
 1. Run the app in development mode:
+
 ```bash
 npm start
 ```
@@ -82,3 +84,4 @@ Click on the badges below to go to my profiles or contact me via email.
 - [GitHub Get Started with Netlify CLI](https://docs.netlify.com/cli/get-started/)
 - [GitHub: React AntD Holidaze Exam](https://github.com/siljeangelvik/react-antd-holidaze-exam)
 - [Web Dev Simplified: Learn React Router v6 In 45 Minutes](https://www.youtube.com/watch?v=Ul3y1LXxzdU)
+- [React Router: A Step-by-Step Guide](https://luqmanshaban.medium.com/react-router-a-step-by-step-guide-4c5ec964d2e9)
