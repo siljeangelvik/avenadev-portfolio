@@ -82,3 +82,5 @@ Click on the badges below to go to my profiles or contact me via email.
 - [Deploy React app to Netlify using GitHub Actions](https://dev.to/ktscates/deploy-a-react-app-to-netlify-using-github-actions-3akd)
 - [GitHub Triggering a Workflow](https://docs.github.com/en/actions/using-workflows/triggering-a-workflow)
 - [GitHub Get Started with Netlify CLI](https://docs.netlify.com/cli/get-started/)
+- [GitHub: React AntD Holidaze Exam](https://github.com/siljeangelvik/react-antd-holidaze-exam)
+- [Web Dev Simplified: Learn React Router v6 In 45 Minutes](https://www.youtube.com/watch?v=Ul3y1LXxzdU)
