@@ -1,11 +1,12 @@
 import React from 'react';
+import withLanguage from '../utils/withLanguage'; // Import the withLanguage HOC
 
-function NotFound() {
+const NotFound = ({ language, translations }) => {
     return (
         <div>
-            <h2>404 Not Found</h2>
+            <h2>{translations[language].menuNotFound}</h2>
         </div>
     );
 }
 
-export default NotFound;
+export default withLanguage(NotFound);

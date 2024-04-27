@@ -1,11 +1,13 @@
 import React from 'react';
+import withLanguage from '../utils/withLanguage'; // Import the withLanguage HOC
 
-function Home() {
+const Home = ({ language, translations }) => {
     return (
         <div>
-            <h2>Home</h2>
+            <h1>{translations[language].greeting}</h1>
+            <p>{translations[language].welcomeMessage}</p>
         </div>
     );
-}
+};
 
-export default Home;
+export default withLanguage(Home);

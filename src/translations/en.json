@@ -1,0 +1,12 @@
+{
+  "greeting": "Hello \uD83E\uDD17",
+  "welcomeMessage": "Welcome to my React App!",
+  "toggleButton": "\uD83C\uDDF3\uD83C\uDDF4",
+  "introduction": "Introduction",
+  "introductionContent": "Hello, I'm Silje Avena, a skilled Front End Developer with hands-on experience in course instruction and app development. I obtained my diploma in Front End Development from Noroff and am currently refining my skills at Fontenehuset. My journey reflects a commitment to continuous improvement.",
+  "menuHome": "Home",
+  "menuAbout": "About",
+  "menuProjects": "Projects",
+  "menuContact": "Contact",
+  "menuNotFound": "404 Oops, Page not found."
+}

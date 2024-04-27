@@ -1,26 +1,47 @@
 import React from 'react';
 import './App.css';
-import {Route, Routes} from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Projects from './components/Projects';
 import Header from './components/Header';
-import Home from './components/Home'; // Import your Home component
-import About from './components/About'; // Import your About component
-import Contact from './components/Contact'; // Import your Contact component
-import NotFound from './components/NotFound'; // Import your NotFound component
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
+import NotFound from './components/NotFound';
+import { LanguageProvider } from './context/LanguageContext';
+import LanguageSwitcher from './components/LanguageSwitcher';
+import enTranslations from './translations/en.json';
+import noTranslations from './translations/no.json';
+import withLanguage from './utils/withLanguage'; // Import the withLanguage HOC
 
-function App() {
+// Wrap components with the withLanguage HOC
+const EnhancedHome = withLanguage(Home);
+const EnhancedAbout = withLanguage(About);
+const EnhancedContact = withLanguage(Contact);
+const EnhancedNotFound = withLanguage(NotFound);
+
+const App = () => {
+    const translations = {
+        en: enTranslations,
+        no: noTranslations
+    };
+
     return (
-        <div className="app">
-            <Header/>
-            <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/about" element={<About/>}/>
-                <Route path="/projects" element={<Projects/>}/>
-                <Route path="/contact" element={<Contact/>}/>
-                <Route path="/notfound" element={<NotFound/>}/>
-            </Routes>
-        </div>
+        <LanguageProvider>
+            <div className="app">
+                {/* Pass translations object to LanguageSwitcher */}
+                <LanguageSwitcher defaultLanguage="en" translations={translations}/>
+                <Header/>
+                <Routes>
+                    {/* Render enhanced components */}
+                    <Route path="/" element={<EnhancedHome/>}/>
+                    <Route path="/about" element={<EnhancedAbout/>}/>
+                    <Route path="/projects" element={<Projects/>}/>
+                    <Route path="/contact" element={<EnhancedContact/>}/>
+                    <Route path="/notfound" element={<EnhancedNotFound/>}/>
+                </Routes>
+            </div>
+        </LanguageProvider>
     );
-}
+};
 
 export default App;

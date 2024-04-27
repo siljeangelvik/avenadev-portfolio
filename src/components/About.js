@@ -1,11 +1,12 @@
 import React from 'react';
+import withLanguage from '../utils/withLanguage'; // Import the withLanguage HOC
 
-function About() {
+const About = ({ language, translations }) => {
     return (
         <div>
-            <h2>About</h2>
+            <h2>{translations[language].menuAbout}</h2>
         </div>
     );
 }
 
-export default About;
+export default withLanguage(About);
