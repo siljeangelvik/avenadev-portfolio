@@ -88,3 +88,4 @@ Click on the badges below to go to my profiles or contact me via email.
 - [React Router: A Step-by-Step Guide](https://luqmanshaban.medium.com/react-router-a-step-by-step-guide-4c5ec964d2e9)
 - [Toggling Themes and Changing Language Two in One in React Made Easy](https://medium.com/@souadelmansouri2018/toggling-themes-and-changing-language-two-in-one-in-react-made-easy-dd2ff2fb6c34)
 - [ChatGPT: Toggle Language Function](https://chat.openai.com/share/966c80e0-97a7-47cf-b844-d97f7a510bb8)
+- [StackOverflow: Netlify Renders 404 on Page Refresh](https://stackoverflow.com/questions/58065603/netlify-renders-404-on-page-refresh-using-react-and-react-router)
