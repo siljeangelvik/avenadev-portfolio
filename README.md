@@ -100,13 +100,4 @@ h1 has text color: #babecc
 
 form input, form button has background color: #ebecf0
 
-
 ![angelvik-signature_small_400x141.png](src%2Futils%2Fmedia%2Fangelvik-signature_small_400x141.png)
-
-![angelvik-signature_small_400x141.png](src%2Futils%2Fmedia%2Fangelvik-signature_small_400x141.png)
-
-
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-
-[](https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0)
