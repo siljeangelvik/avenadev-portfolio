@@ -14,7 +14,9 @@
 This is my portfolio, where I showcase my projects and skills.
 
 It is built
-with [React](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjPpKe-rNz_AhVaQ_EDHaKIDzQQFnoECBsQAQ&url=https%3A%2F%2Freact.dev%2F&usg=AOvVaw1tEjYYiD7LQlxO53dgjTHV&opi=89978449) and styled with [Styled Components](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiXvr_CrNz_AhV3SvEDHaxSA0cQFnoECCAQAQ&url=https%3A%2F%2Fwww.styled-components.com%2F&usg=AOvVaw0J6heqwwkbKYNkr_2e7jIU&opi=89978449).
+with [React](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjPpKe-rNz_AhVaQ_EDHaKIDzQQFnoECBsQAQ&url=https%3A%2F%2Freact.dev%2F&usg=AOvVaw1tEjYYiD7LQlxO53dgjTHV&opi=89978449)
+and styled
+with [Styled Components](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiXvr_CrNz_AhV3SvEDHaxSA0cQFnoECCAQAQ&url=https%3A%2F%2Fwww.styled-components.com%2F&usg=AOvVaw0J6heqwwkbKYNkr_2e7jIU&opi=89978449).
 
 It is hosted on [Netlify](https://www.netlify.com/) and the domain is purchased through [ProISP](https://www.proisp.no).
 
@@ -89,3 +91,22 @@ Click on the badges below to go to my profiles or contact me via email.
 - [Toggling Themes and Changing Language Two in One in React Made Easy](https://medium.com/@souadelmansouri2018/toggling-themes-and-changing-language-two-in-one-in-react-made-easy-dd2ff2fb6c34)
 - [ChatGPT: Toggle Language Function](https://chat.openai.com/share/966c80e0-97a7-47cf-b844-d97f7a510bb8)
 - [StackOverflow: Netlify Renders 404 on Page Refresh](https://stackoverflow.com/questions/58065603/netlify-renders-404-on-page-refresh-using-react-and-react-router)
+
+Font Family: Roboto
+Body Text Color: dimgray
+
+body, navbar, p, input, select, textarea, button has background color: #e0e5ec
+h1 has text color: #babecc
+
+form input, form button has background color: #ebecf0
+
+
+![angelvik-signature_small_400x141.png](src%2Futils%2Fmedia%2Fangelvik-signature_small_400x141.png)
+
+![angelvik-signature_small_400x141.png](src%2Futils%2Fmedia%2Fangelvik-signature_small_400x141.png)
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+[](https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0)
