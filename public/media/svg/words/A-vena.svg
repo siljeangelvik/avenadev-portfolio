@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+     y="0px"
+     viewBox="0 0 841.89 595.28" style="enable-background:new 0 0 841.89 595.28;" xml:space="preserve">
+  <style type="text/css">
+    .st0{fill:none;stroke:#fff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+  </style>
+    <!-- A : UPPERCASE -->
+    <path class="st0" d="
+    M 515.91 285.89 271.28 285.89
+    M 105.91 285.89 271.28 285.89
+    M 127.79 421.98
+    L 372.64 155.68
+    L 251.36 336.32"/>
+    <!-- V : LOWERCASE -->
+    <path class="st0" d="
+    M 323.98 252.62
+    s -13.96 21.11 -9.36 22.47
+    c 4.6 1.36 25.02 -18.38 28.43 -22.47"/>
+    <!-- E : LOWERCASE -->
+    <path class="st0" d="
+    M 345.98 270.1
+    c 13.91 -2.55 21.06 -11.23 17.36 -14.94
+    c -3.7 -3.7 -21.19 6.38 -19.53 15.96
+    s 14.17 6.82 36.21 -9.19"/>
+    <!-- N : LOWERCASE -->
+    <path class="st0" d="
+    M 387.1 252.94
+    l -17.02 23.22
+    c 0 0 30.98 -25.78 33.53 -23.22
+    s -17.19 21.26 -13.45 23.22"/>
+    <!-- A : LOWERCASE -->
+    <path class="st0" d="
+   M 399.4 269
+   c 9.6 -1 27.79 -22.34 33.58 -15.19
+   c 5.79 7.15 -17.04 26.21 -22.64 21.94
+   c -4.6 -5.28 14.26 -20.75 21.26 -21.75
+   m 1.4 0
+   c 3 0 0 40 14 12"/>
+</svg>

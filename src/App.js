@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
-import Projects from './components/Projects';
-import Header from './components/Header';
-import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact';
-import NotFound from './components/NotFound';
-import { LanguageProvider } from './context/LanguageContext';
-import LanguageSwitcher from './components/LanguageSwitcher';
+import {Route, Routes} from 'react-router-dom';
+import Footer from './components/Footer/Footer';
+import Projects from './pages/Projects';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
+import {LanguageProvider} from './context/LanguageContext';
+import Header from './components/Header/Header';
 import enTranslations from './translations/en.json';
 import noTranslations from './translations/no.json';
 import withLanguage from './utils/withLanguage'; // Import the withLanguage HOC
@@ -27,9 +27,8 @@ const App = () => {
 
     return (
         <LanguageProvider>
-            <div className="app">
+            <div className="App">
                 {/* Pass translations object to LanguageSwitcher */}
-                <LanguageSwitcher defaultLanguage="en" translations={translations}/>
                 <Header/>
                 <Routes>
                     {/* Render enhanced components */}
@@ -39,9 +38,36 @@ const App = () => {
                     <Route path="/contact" element={<EnhancedContact/>}/>
                     <Route path="/notfound" element={<EnhancedNotFound/>}/>
                 </Routes>
+                <Footer/>
             </div>
         </LanguageProvider>
     );
 };
 
 export default App;
+
+
+// import React from 'react';
+// import {GlobalStyles} from './styles/GlobalStyles';
+// // import './App.css'; // Import your CSS file
+// import Nav from './components/Nav';
+// import Wrapper from './components/Wrapper';
+// import Box from './components/Box';
+// import Hearts from './components/Hearts';
+// import Neu from './components/Neu';
+
+// const App = () => {
+//     return (
+//         <>
+//             <GlobalStyles/>
+//                 <Nav />
+//                 <Wrapper />
+//                 <Box />
+//                 <Hearts />
+//                 <Neu />
+//         </>
+//     );
+// };
+//
+// export default App;
+

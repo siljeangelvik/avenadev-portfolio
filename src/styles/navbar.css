@@ -1,0 +1,118 @@
+/* @formatter:on */
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+nav {
+    width: 100vw;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    min-height: 45px;
+}
+
+div.container {
+    align-content: center;
+    flex-grow: 1;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    flex-grow: 4;
+
+}
+
+.burger-wrapper,
+li:last-child {
+    display: none;
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+}
+
+a:not(.logo-pacifico) {
+    font-weight: bold;
+    color: tomato;
+}
+
+a:not(.logo-pacifico)::after {
+    transition: color 3s ease-in-out;
+}
+
+a:not(.logo-pacifico):hover {
+    color: mediumorchid;
+}
+
+.burger-wrapper,
+li:last-child {
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    font-size: 36px;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    a.logo-pacifico {
+        width: 100%;
+        padding-left: 10px;
+        text-align: start;
+    }
+
+    .material-symbols-outlined {
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        flex-grow: 4;
+        position: absolute;
+        top: 45px; /* Adjust this to match the height of your nav */
+        left: 0;
+        width: 100%;
+        background-color: #222; /* Same background color as in the media query */
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+
+    ul.open {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    li:not(:last-child) {
+        width: 100%;
+    }
+
+    li:last-child {
+        display: flex;
+    }
+
+    .burger-wrapper {
+        display: block;
+    }
+}

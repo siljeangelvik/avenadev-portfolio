@@ -1,0 +1,15 @@
+/* src/styles/socials.css */
+.socials {
+    display: flex;
+    gap: 20px; /* Adjust the gap as needed */
+}
+
+.social-icon {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Ensure the icons are square */
+    transition: transform 0.3s ease-in-out; /* Add some transition for hover effect */
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}

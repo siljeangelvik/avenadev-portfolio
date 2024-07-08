@@ -1,0 +1,45 @@
+/* src/styles/logo.css for Logo component */
+.logo-svg img {
+    width: 50%; /* Adjust the size as needed */
+    height: auto;
+    opacity: 40%;
+    transform: rotate(-40deg); /* Rotate 360 degrees */
+    transition: transform 1.4s ease; /*!* Apply transition for smooth effect *!*/
+    position: absolute;
+    left: 0;
+}
+
+.logo-svg img:hover { transform: rotate(320deg); /* Rotate 360 degrees */ }
+
+/*** LOGO FONT STYLES ***/
+/*@formatter:off*/
+
+/*.logo { font-size: 34px; }*/
+
+/* Script Fonts */
+.logo-pacifico { font-family: 'Pacifico', cursive; }
+.logo-greatVibes { font-family: 'Great Vibes', cursive; }
+.logo-dancingScript { font-family: 'Dancing Script', cursive; }
+.logo-alexBrush { font-family: 'Alex Brush', cursive; }
+.logo-allura { font-family: 'Allura', cursive; }
+
+/* Serif Fonts */
+.logo-playfairDisplay { font-family: 'Playfair Display', serif; }
+.logo-merriweather { font-family: 'Merriweather', serif; }
+.logo-lora { font-family: 'Lora', serif; }
+.logo-crimsonText { font-family: 'Crimson Text', serif; }
+.logo-cormorantGaramond { font-family: 'CormorantGaramond', serif; }
+
+/* Sans Serif Fonts */
+.logo-montserrat { font-family: 'Montserrat', sans-serif; }
+.logo-raleway { font-family: 'Raleway', sans-serif;}
+.logo-openSans { font-family: 'Open Sans', sans-serif; }
+.logo-roboto { font-family: 'Roboto', sans-serif; }
+.logo-lato { font-family: 'Lato', sans-serif; }
+
+/* Handwritten Fonts */
+.logo-indieFlower { font-family: 'Indie Flower', cursive; }
+.logo-satisfy { font-family: 'Satisfy', cursive; }
+.logo-shadowsIntoLight { font-family: 'Shadows Into Light', cursive; }
+.logo-amaticSC { font-family: 'Amatic SC', cursive; }
+.logo-homemadeApple { font-family: 'Homemade Apple', cursive; }

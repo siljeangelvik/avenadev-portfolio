@@ -1,12 +1,12 @@
 import React from 'react';
 import withLanguage from '../utils/withLanguage'; // Import the withLanguage HOC
 
-const Projects = ({ language, translations }) => {
+const NotFound = ({ language, translations }) => {
     return (
         <div>
-            <h2>{translations[language].menuProjects}</h2>
+            <h2>{translations[language].menuNotFound}</h2>
         </div>
     );
 }
 
-export default withLanguage(Projects);
+export default withLanguage(NotFound);

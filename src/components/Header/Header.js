@@ -1,16 +1,14 @@
+// src/components/Header/Header.js
 import React from 'react';
 import Navbar from './Navbar';
 
 function Header() {
     return (
-        <div>
+        <header>
             <Navbar/>
-
             <h1>Silje Avena Angelvik</h1>
-        </div>
+        </header>
     );
 }
 
 export default Header;
-
-
